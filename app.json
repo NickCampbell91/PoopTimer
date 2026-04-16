@@ -21,14 +21,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nickcampbell91.pooptimer"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#f7f1df"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.pooptimer"
+      "package": "com.nickcampbell91.pooptimer"
     },
     "web": {
       "bundler": "metro"

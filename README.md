@@ -123,7 +123,7 @@ Notes:
 
 - The generated `android/` and `ios/` folders are ignored in this repo so Expo's prebuild output does not clutter version control.
 - If you change native dependencies or native app config later, rebuild with `npm.cmd run android:dev-build` again.
-- Because `app.json` does not yet define an explicit `android.package`, Expo currently generates the local Android app id as `com.anonymous.pooptimer`. That is fine for development, but you will probably want to set a real package id before shipping.
+- The app now uses `com.nickcampbell91.pooptimer` for both the Android package id and iOS bundle identifier.
 
 ## Add More Messages Later
 

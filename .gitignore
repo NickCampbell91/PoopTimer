@@ -1,0 +1,11 @@
+.expo
+.expo/
+android/
+ios/
+.gradle/
+dist/
+node_modules/
+npm-debug.log*
+*.log
+latest-screen.png
+window_dump.xml
